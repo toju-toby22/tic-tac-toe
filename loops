@@ -1,0 +1,108 @@
+for(i = 4; i<=10; i++){
+    console.log(i)
+}
+ for loop
+
+
+ let i = 4
+ while(i<-10){
+     console.log(i)
+     i++
+ }
+
+// IFE
+ (function(){
+
+ }) ()
+
+ higher other function
+ function add(){
+     function sum(){
+
+     }
+     return sum
+ }
+
+ add() ()
+
+
+call back
+
+ function sum(c){
+     c()
+ }
+
+ return caannot be used inside of a call back
+
+ sum(function(){
+
+ })
+
+ //using a promise
+ function ajax(){
+     return new promise((resolve,reject)=>{
+         if(num > 70){
+             resolve(num)
+         }else{
+             reject(num+"is less than 70")
+         }
+     })
+ }
+
+ ajax(10)
+ .thenn(res => + 10)
+ .then(res =>{
+     console.log(res)
+ })
+ .catch(err=> console.log(err))
+
+
+
+
+ //classes//
+
+ function getLoan(){
+
+ }
+ function getLoanRecords(){
+
+ }
+
+ function createAcct(){}
+ function resetAcct(){}
+ function setuserEmail(){}
+
+ class USer{
+     createAcct(){}
+     function resetAcct(){}
+     function setuserEmail(){}
+
+ }
+
+ let Loan1 = new Loan()
+ 
+ 
+uttfvedhbf
+
+ A constructor is a special name of a class inside its class
+
+
+ jyegfdl's
+ fflet
+
+
+
+
+
+ let text = ""
+
+ btn.onclick = function(){
+     let count = 0
+     let robot =  setInterval(function){
+         if(count == text.length){
+             clearInterval(robot)
+         }
+         txtarea.innerHTML = text.substr(0,count)
+         count++
+     },100)
+ }
